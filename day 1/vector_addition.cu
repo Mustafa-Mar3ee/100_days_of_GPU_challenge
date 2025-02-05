@@ -55,8 +55,8 @@ int main()
     cudaFree(d_b);
     cudaFree(d_c);
     cudaFreeHost(h_a);
-    cudaFree(h_b);
-    cudaFree(h_c);
+    cudaFreeHost(h_b);
+    cudaFreeHost(h_c);
 
     return 0;
 }
